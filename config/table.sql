@@ -1,0 +1,7 @@
+CREATE TABLE `test`.`nav` ( 
+    `id` INT NOT NULL AUTO_INCREMENT , 
+    `name` VARCHAR(255) NOT NULL , 
+    `tags` VARCHAR(255) NOT NULL , 
+    `created_At` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP , 
+    PRIMARY KEY (`id`)
+) ENGINE = InnoDB;
